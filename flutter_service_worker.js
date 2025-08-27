@@ -3,16 +3,17 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "3845a24e49cbd44bb9fa17bae1958b67",
-"assets/AssetManifest.bin.json": "9572ebb4cdd80773cf3aa936c470219c",
-"assets/AssetManifest.json": "3bc3aeeb53786d417b8398fc1950f07a",
+const RESOURCES = {"assets/AssetManifest.bin": "ce67b41acf85394367dafd35aad2f9b5",
+"assets/AssetManifest.bin.json": "f2374b6fd9687bc0082e576dae71da0f",
+"assets/AssetManifest.json": "03b8ce200f6d303944bb809f37ded32f",
 "assets/FontManifest.json": "ada41c0da2490934680caf8eb8e22328",
-"assets/fonts/MaterialIcons-Regular.otf": "5c08483f395166d1345ac05165e5b672",
+"assets/fonts/MaterialIcons-Regular.otf": "e673383e0d51fecfc65185bc540a69b0",
 "assets/fonts/Pacifico-Regular.ttf": "85bb2d0ec4a0da159de42e89089ccc0b",
 "assets/fonts/Roboto-black.ttf": "b8e3ed03047190a170b330b99cb497cf",
 "assets/images/google.png": "2e9122ab211f2b6610c3494f7e2c3498",
 "assets/images/login_screen.png": "18dd0ba49b541513c840d728b1bd466c",
 "assets/images/MisbahIslam.png": "4ca30451b517df27ce8e0adcc127574c",
+"assets/images/misbah_pic.jpg": "f0f87077e01a42eb23f0d2479b6b6f76",
 "assets/images/p.png": "90e59aa8ac7c6038ea0dd8d0750631fd",
 "assets/images/yt_screen.png": "d079080f7b3a98979990badd3bfa694c",
 "assets/NOTICES": "7f673730900047942f728fe9f06d3f75",
@@ -29,14 +30,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "3845a24e49cbd44bb9fa17bae1958b67
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "d0bf3da61d115b7fd3fdf11afa76fd93",
+"flutter_bootstrap.js": "c33e55f7bb3e8d5556cd98df1385c0a9",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "9f7d411ecf183e54573918724d0efb88",
 "/": "9f7d411ecf183e54573918724d0efb88",
-"main.dart.js": "11ef2a4c1a80caee80820ae09e42454c",
+"main.dart.js": "6b919433ae99e1fef5b4a04fb5c62a9a",
 "manifest.json": "30a6ea85f38555c77870a57aeabe8211",
 "version.json": "c420e205d8eac4ccea99913b4a50bfa7"};
 // The application shell files that are downloaded before a service worker can
