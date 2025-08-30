@@ -82438,7 +82438,7 @@ $0(){var s=this.a
 return s.d.$1(s.e)},
 $S:0}
 A.IA.prototype={
-K(a){var s,r,q,p=null,o=this.c,n=o.a,m=n<=600,l=o.b,k=m?l*0.64:l,j=A.b([new A.m1(o,p),new A.m2(o,p)],t.D),i=n>600
+K(a){var s,r,q,p=null,o=this.c,n=o.a,m=n<=600,l=o.b,k=m?l*0.68:l,j=A.b([new A.m1(o,p),new A.m2(o,p)],t.D),i=n>600
 if(i){if(m)s=l*0.53
 else s=l<=1024?l*0.32:l*0.53
 if(m)r=l*0.35
@@ -82565,71 +82565,70 @@ A.ac9.prototype={
 $0(){$.wn().lZ("open",["https://t.me/@misbahislaam"])},
 $S:0}
 A.N3.prototype={
-K(a5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e=this.c,d=e.a,c=d<=600,b=e.b,a=c?b*0.8:b,a0=c?b*0.05:b*0.13,a1=c?d*0.24:d*0.15,a2=c?d*0.5:d*0.25,a3=c?b*0.25:b*0.7,a4=A.d_(17)
-a0=A.bI(f,A.bx(f,f,B.l,f,f,new A.bA(f,A.rE(B.cs,new A.hb("images/misbah_pic2.jpg",f,f),f),f,a4,f,f,B.Q),f,a3,f,f,f,f,f,a2),f,f,a1,f,a0,f)
-a1=c?b*0.65:b*0.5
-a2=c?d*-0.05:d*0.04
-a1=A.bI(f,new A.nl(e,f),f,f,a2,f,a1,f)
-a2=c?b*0.33:b*0.1
-a3=c?d/2-50:d*0.16
-a4=d<600
-s=a4?100:280
-if(c)r=22
-else r=d<=1024?35:45
-a2=A.bI(f,A.bG(A.bd("ABOUT ME",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,r,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,s),f,f,f,a3,a2,f)
-a3=c?b*0.38:b*0.25
-s=c?d*0.1:d*0.06
-r=c?d*0.8:d*0.5
-if(c)q=14
-else q=d<=1024?16:20
-a3=A.bI(f,A.bG(A.bd("Hi, I\u2019m Misbah, a BSCS student with a passion for Flutter development. I enjoy crafting intuitive and visually appealing mobile app interfaces. My focus is on creating clean, reusable code and exploring innovative UI ideas. I\u2019m dedicated to learning new technologies and building applications that solve real-world problems efficiently.",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,q,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),B.dy,f),f,r),f,f,f,s,a3,f)
-s=c?b*0.61:b*0.62
-r=c?d*0.17:d*0.12
-q=b*0.05
-if(a4)p=d*0.15
-else p=d<1024?d*0.1:d*0.08
-o=A.d_(10)
-p=A.bx(f,A.em(A.bd("Flutter",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,o,f,f,B.Q),f,q,f,f,f,f,f,p)
-o=d*0.02
-n=A.bG(f,f,o)
-if(a4)m=d*0.15
-else m=d<1024?d*0.1:d*0.08
-l=A.d_(10)
-m=A.bx(f,A.em(A.bd("Dart",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,l,f,f,B.Q),f,q,f,f,f,f,f,m)
-l=A.bG(f,f,o)
-if(a4)k=d*0.15
-else k=d<1024?d*0.1:d*0.08
-j=A.d_(10)
-k=A.bx(f,A.em(A.bd("Firebase",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,j,f,f,B.Q),f,q,f,f,f,f,f,k)
-j=A.bG(f,f,o)
-if(a4)i=d*0.15
-else i=d<1024?d*0.1:d*0.08
-h=A.d_(10)
-g=t.D
-s=A.bI(f,A.AL(A.b([p,n,m,l,k,j,A.bx(f,A.em(A.bd("UI/UX",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,h,f,f,B.Q),f,q,f,f,f,f,f,i)],g),B.am,B.bk),f,f,f,r,s,f)
-b=c?b*0.68:b*0.7
-c=c?d*0.163:d*0.12
-if(a4)r=d*0.15
-else r=d<1024?d*0.1:d*0.08
+K(a1){var s,r,q,p,o,n,m,l,k=null,j=this.c,i=j.a,h=i<=600,g=j.b,f=h?g*0.84:g,e=h?g*0.05:g*0.13,d=h?i*0.24:i*0.15,c=h?i*0.5:i*0.25,b=h?g*0.25:g*0.7,a=A.d_(17),a0=t.D
+e=A.b([new A.m1(j,k),new A.m2(j,k),new A.m3(j,k),A.bI(k,A.bx(k,k,B.l,k,k,new A.bA(k,A.rE(B.cs,new A.hb("images/misbah_pic2.jpg",k,k),k),k,a,k,k,B.Q),k,b,k,k,k,k,k,c),k,k,d,k,e,k)],a0)
+if(i>600){d=h?g*0.65:g*0.5
+c=h?i*-0.05:i*0.04
+e.push(A.bI(k,new A.nl(j,k),k,k,c,k,d,k))}j=h?g*0.33:g*0.1
+d=h?i/2-50:i*0.16
+c=i<600
+b=c?100:280
+if(h)a=22
+else a=i<=1024?35:45
+e.push(A.bI(k,A.bG(A.bd("ABOUT ME",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,a,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,b),k,k,k,d,j,k))
+j=h?g*0.38:g*0.25
+d=h?i*0.1:i*0.06
+b=h?i*0.8:i*0.5
+if(h)a=14
+else a=i<=1024?16:20
+e.push(A.bI(k,A.bG(A.bd("Hi, I\u2019m Misbah, a BSCS student with a passion for Flutter development. I enjoy crafting intuitive and visually appealing mobile app interfaces. My focus is on creating clean, reusable code and exploring innovative UI ideas. I\u2019m dedicated to learning new technologies and building applications that solve real-world problems efficiently.",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,a,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.dy,k),k,b),k,k,k,d,j,k))
+j=h?g*0.7:g*0.62
+d=h?i*0.15:i*0.12
+b=g*0.05
+if(c)a=i*0.18
+else a=i<1024?i*0.1:i*0.08
+s=A.d_(10)
+a=A.bx(k,A.em(A.bd("Flutter",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,s,k,k,B.Q),k,b,k,k,k,k,k,a)
+s=i*0.02
+r=A.bG(k,k,s)
+if(c)q=i*0.18
+else q=i<1024?i*0.1:i*0.08
 p=A.d_(10)
-r=A.bx(f,A.em(A.bd("C++",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,p,f,f,B.Q),f,q,f,f,f,f,f,r)
-p=A.bG(f,f,o)
-if(a4)n=d*0.15
-else n=d<1024?d*0.1:d*0.08
-m=A.d_(10)
-n=A.bx(f,A.em(A.bd("Java",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,m,f,f,B.Q),f,q,f,f,f,f,f,n)
-m=A.bG(f,f,o)
-if(a4)l=d*0.15
-else l=d<1024?d*0.1:d*0.08
-k=A.d_(10)
-l=A.bx(f,A.em(A.bd("OOP",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,k,f,f,B.Q),f,q,f,f,f,f,f,l)
-o=A.bG(f,f,o)
-if(a4)a4=d*0.16
-else a4=d<1024?d*0.1:d*0.08
-k=A.d_(10)
-return A.bx(f,A.fr(B.aX,A.b([new A.m1(e,f),new A.m2(e,f),new A.m3(e,f),a0,a1,a2,a3,s,A.bI(f,A.AL(A.b([r,p,n,m,l,o,A.bx(f,A.em(A.bd("Database",f,f,f,A.be(f,f,B.t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),f,f),B.l,f,f,new A.bA(B.E,f,f,k,f,f,B.Q),f,q,f,f,f,f,f,a4)],g),B.am,B.bk),f,f,f,c,b,f)],g),B.l,B.aV),B.l,f,f,f,f,a,f,f,f,f,f,d)}}
+q=A.bx(k,A.em(A.bd("Dart",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,p,k,k,B.Q),k,b,k,k,k,k,k,q)
+p=A.bG(k,k,s)
+if(c)o=i*0.18
+else o=i<1024?i*0.1:i*0.08
+n=A.d_(10)
+o=A.bx(k,A.em(A.bd("Firebase",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,n,k,k,B.Q),k,b,k,k,k,k,k,o)
+n=A.bG(k,k,s)
+if(c)m=i*0.18
+else m=i<1024?i*0.1:i*0.08
+l=A.d_(10)
+e.push(A.bI(k,A.AL(A.b([a,r,q,p,o,n,A.bx(k,A.em(A.bd("UI/UX",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,l,k,k,B.Q),k,b,k,k,k,k,k,m)],a0),B.am,B.bk),k,k,k,d,j,k))
+j=h?g*0.76:g*0.7
+h=h?i*0.15:i*0.12
+if(c)g=i*0.18
+else g=i<1024?i*0.1:i*0.08
+d=A.d_(10)
+g=A.bx(k,A.em(A.bd("C++",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,d,k,k,B.Q),k,b,k,k,k,k,k,g)
+d=A.bG(k,k,s)
+if(c)a=i*0.18
+else a=i<1024?i*0.1:i*0.08
+r=A.d_(10)
+a=A.bx(k,A.em(A.bd("Java",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,r,k,k,B.Q),k,b,k,k,k,k,k,a)
+r=A.bG(k,k,s)
+if(c)q=i*0.18
+else q=i<1024?i*0.1:i*0.08
+p=A.d_(10)
+q=A.bx(k,A.em(A.bd("OOP",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,p,k,k,B.Q),k,b,k,k,k,k,k,q)
+s=A.bG(k,k,s)
+if(c)c=i*0.18
+else c=i<1024?i*0.1:i*0.08
+p=A.d_(10)
+e.push(A.bI(k,A.AL(A.b([g,d,a,r,q,s,A.bx(k,A.em(A.bd("Database",k,k,k,A.be(k,k,B.t,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k),k,k),B.l,k,k,new A.bA(B.E,k,k,p,k,k,B.Q),k,b,k,k,k,k,k,c)],a0),B.am,B.bk),k,k,k,h,j,k))
+return A.bx(k,A.fr(B.aX,e,B.l,B.aV),B.l,k,k,k,k,f,k,k,k,k,k,i)}}
 A.N4.prototype={
-K(a){var s,r,q,p=null,o=this.c,n=o.a,m=n<=600,l=o.b,k=m?l*0.6:l,j=A.b([new A.m1(o,p),new A.m2(o,p),new A.m3(o,p)],t.D)
+K(a){var s,r,q,p=null,o=this.c,n=o.a,m=n<=600,l=o.b,k=m?l*0.65:l,j=A.b([new A.m1(o,p),new A.m2(o,p),new A.m3(o,p)],t.D)
 if(n>600)j.push(A.bI(p,new A.nl(o,p),p,p,n*0.01,p,l*0.6,p))
 o=m?l*0.07:l*0.2
 s=m?n/2-60:n*0.16
@@ -82643,28 +82642,28 @@ r=m?n*0.83:n*0.4
 if(m)q=14
 else q=n<=1024?16:20
 j.push(A.bI(p,A.bG(A.bd("I am currently pursuing a Bachelor of Science in Computer Science (BSCS) where I am building strong foundations in programming, data structures, algorithms, databases, and software development. Along with academics, I am also working on projects and learning modern technologies to enhance my practical skills.",p,p,p,A.be(p,p,B.t,p,p,p,p,p,p,p,p,q,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.dy,p),p,r),p,p,s,p,o,p))
-o=m?l*0.34:l*0.07
+o=m?l*0.4:l*0.07
 s=m?n*0.38:n*0.16
 if(m)r=18
 else r=n<=1024?35:55
 j.push(A.bI(p,A.bd("2021 - 2027",p,p,p,A.be(p,p,B.t,p,p,p,p,p,"MyFont",p,p,r,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,s,o,p))
-o=m?l*0.38:l*0.25
+o=m?l*0.45:l*0.25
 s=m?n*0.68:n*0.35
 if(m)r=16
 else r=n<=1024?25:35
 j.push(A.bI(p,A.bd("2021 - 2023",p,p,p,A.be(p,p,B.t,p,p,p,p,p,p,p,p,r,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,s,o,p))
-o=m?l*0.42:l*0.35
-s=m?n*0.34:n*0.1
+o=m?l*0.49:l*0.35
+s=m?n*0.2:n*0.1
 if(m)r=14
 else r=n<=1024?20:n*0.023
 j.push(A.bI(p,A.bd("Intermediate in Computer Science (ICS)",p,p,p,A.be(p,p,B.E,p,p,p,p,p,p,p,p,r,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,s,o,p))
-o=m?l*0.48:l*0.45
+o=m?l*0.53:l*0.45
 s=m?n*0.63:n*0.32
 if(m)r=16
 else r=n<=1024?25:35
 j.push(A.bI(p,A.bd("2023 - Present",p,p,p,A.be(p,p,B.t,p,p,p,p,p,p,p,p,r,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,s,o,p))
-o=m?l*0.52:l*0.55
-l=m?n*0.21:n*0.018
+o=m?l*0.58:l*0.55
+l=m?n*0.07:n*0.018
 if(m)m=14
 else m=n<=1024?20:n*0.023
 j.push(A.bI(p,A.bd("Bachelor of Science in Computer Science (BSCS)",p,p,p,A.be(p,p,B.E,p,p,p,p,p,p,p,p,m,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,l,o,p))
