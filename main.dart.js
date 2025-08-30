@@ -82347,7 +82347,7 @@ j.push(A.bE(p,new A.nc(o,p),p,p,s,p,i,p))}o=m?232:l*0.24
 i=m?n*0.36:n*0.15
 if(m)s=20
 else s=n<=1024?35:45
-j.push(A.bE(p,A.bd("MISBAH ISLAM",p,p,p,A.be(p,p,B.r,p,p,p,p,p,"OpenSans",p,p,s,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,i,o,p))
+j.push(A.bE(p,A.bd("MISBAH ISLAM",p,p,p,A.be(p,p,B.r,p,p,p,p,p,p,p,p,s,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p,p,i,o,p))
 o=m?265:l*0.38
 i=m?n*0.11:n*0.06
 s=m?n*0.8:n*0.5
